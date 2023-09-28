@@ -15,8 +15,8 @@ function Shop(params) {
     
     let items = [];
 
-    this.add = (Product)=>{
-        items.push(Product)
+    this.add = (Prod)=>{
+        items.push(Prod)
     }
 
     this.getCartItems =()=>{
@@ -28,6 +28,7 @@ function Shop(params) {
                 price: items[i].getPrice()
             })
         }
+        return cartItems;
     }
 }
 
@@ -37,4 +38,4 @@ const cart = new Shop();
 
 cart.add(product1);
 
-console.log(cart.getCartIte());
+console.log(cart.getCartItems());
