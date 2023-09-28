@@ -1,7 +1,7 @@
 // Step 1: Create the Product constructor function
 function Product(name, price) {
   // Private properties
-  var _name = name;
+  var _name = 'red';
   var _price = price;
 
   // Public method to get the product name
