@@ -63,6 +63,7 @@ var product2 = new Product('Product 2', 20);
 // Create a shopping cart
 var cart = new ShoppingCart();
 
+
 // Add products to the cart
 cart.addItem(product1);
 cart.addItem(product2);
