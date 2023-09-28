@@ -37,4 +37,4 @@ const cart = new Shop();
 
 cart.add(product1);
 
-console.log(cart.getCartItems());
+console.log(cart.getCartIte());
